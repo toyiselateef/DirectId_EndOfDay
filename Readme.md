@@ -26,7 +26,7 @@ dotnet restore
 
 run the command below at the root ./src/Web folder to execute Dockerfile step-by-step as specified in the dockerfile
 ```
-build -t sample-thiago-image -f Dockerfile .
+build -t sample-image -f Dockerfile .
 ```
 run the command below to validate image existence in Docker Image
 ```
@@ -35,6 +35,6 @@ Docker images
 
 Create Docker Container
 ```
-docker create --name sample-thiago-container sample-thiago-image
+docker create --name sample-container sample-image
 ```
 
